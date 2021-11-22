@@ -30,7 +30,7 @@ namespace Завдання_3
             Console.Write("Введіть рядок для перевірки: ");
             var text = Console.ReadLine();
             var res = IsPalindrom(text) ? string.Empty : "не ";
-            Console.WriteLine($"Рядок \"{text}\" {res}є паліндромом");
+            Console.WriteLine($"Рядок \"{text}\" {res}є паліндpомом");
             Console.ReadLine();
         }
     }
